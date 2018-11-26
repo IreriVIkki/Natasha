@@ -3,12 +3,13 @@
 }
 
 .box {
-    width: 17vh;
+    width: 18vh;
     position: relative;
     overflow: hidden;
     transition: all 1000ms;
     background-position-x: center;
     background-position-y: top;
+    background-size: cover;
 }
 
 .box:hover {
@@ -18,12 +19,17 @@
     transition: all 1000ms;
 }
 
-.outer-over {
-    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.21), transparent);
+.actice {
+    /* background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.598), rgba(255, 255, 255, 0.21), transparent); */
+    background-color: rgba(180, 110, 60, 0.7) !important;
+
+}
+
+.over {
+    background-color: rgba(244, 244, 244, 0.51);
     position: absolute;
     height: 100%;
     width: 100%;
-
 }
 
 .outer {
@@ -40,23 +46,29 @@
     white-space: nowrap;
     letter-spacing: 3px;
     line-height: 60px;
-    font-weight: 500
+    font-weight: 100 !important;
+    font-size: 32px;
 }
 
+
 .events {
-    background-image: url('/natasha.jpeg');
+    background-image: url('/events.jpg');
 }
 
 .about {
     background-image: url('/natasha1.jpg')
 }
 
-.blog {
-    background-image: url('/natasha2.jpg')
+.sermons {
+    background-image: url('/sermons.jpg')
 }
 
-.shop {
-    background-image: url('')
+.galery {
+    background-image: url('/galery.jpg')
+}
+
+.contact {
+    background-image: url('/contact.jpg')
 }
 
 .give {
