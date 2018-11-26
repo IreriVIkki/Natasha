@@ -59,25 +59,25 @@
 }
 
 .events {
-    background-image: url('/events.jpg');
+    background-image: url('events.jpg');
 }
 
 .about {
-    background-image: url('/about.jpg')
+    background-image: url('about.jpg')
 }
 
 .sermons {
-    background-image: url('/sermons.jpg')
+    background-image: url('sermons.jpg')
 }
 
 .galery {
-    background-image: url('/galery.jpg')
+    background-image: url('galery.jpg')
 }
 
 .contact {
-    background-image: url('/contact.jpg')
+    background-image: url('contact.jpg')
 }
 
 .give {
-    background-image: url('/give.jpg')
+    background-image: url('give.jpg')
 }
