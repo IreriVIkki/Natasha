@@ -32,6 +32,8 @@
     width: 100%;
 }
 
+
+
 .outer {
     margin-top: 95vh;
     position: absolute;
@@ -50,6 +52,10 @@
     font-size: 32px;
 }
 
+
+.home {
+    background-color: rgba(244, 244, 244, 0);
+}
 
 .events {
     background-image: url('/events.jpg');
